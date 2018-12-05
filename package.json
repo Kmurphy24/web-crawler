@@ -1,0 +1,11 @@
+{
+  "name": "web-crawler",
+  "version": "0.0.0",
+  "description": "A simple webcrawler written in JavaScript",
+  "main": "webCawler.js",
+  "author": "Kyle Murphy",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
