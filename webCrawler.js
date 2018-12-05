@@ -2,9 +2,11 @@ var request = require('request');
 var success = [];
 var skipped = [];
 var invalid = [];
-var internet = ["http://www.leominster-ma.gov"];
 
-// put in as a limit for pages to visit
+// Started off with site that I use and know that has links
+var internet = ["https://www.cbssports.com"];
+
+// put in as a limit for pages to visit when testing to see result
 var visitCount = 0;
 
 webCrawler();
